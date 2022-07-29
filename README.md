@@ -19,13 +19,13 @@ ERROR (-1) :　エラー
 
 ## コンパイル例
 
-```
+```Shell
 gcc main.c get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=512
 ```
 
 ## 使用例
 
-```
+```c
 #include <stdio.h>
 #include <fcntl.h>
 #include <sys/types.h>
